@@ -29,6 +29,7 @@
 
     var _each = function (arr, iterator) {
         if (arr.forEach) {
+            arr.for
             return arr.forEach(iterator);
         }
         for (var i = 0; i < arr.length; i += 1) {
